@@ -1,6 +1,25 @@
 Changelist
 ==========
 
+1.3.2 - Released on 2017-06-29
+------------------------------
+
+- fix ./helpers/sqla.py
+
+    Replace ZopeTransactionExtension by ZopeTransactionEvents
+
+    ::
+
+        ...
+        from zope.sqlalchemy import ZopeTransactionEvents
+        ...
+
+1.3.1 - Released on 2018-03-14
+------------------------------
+
+- Add minimal documentation
+
+
 1.3.0 - Released on 2017-06-29
 ------------------------------
 
